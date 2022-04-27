@@ -1,6 +1,10 @@
 body{
     height: 100%;
 }
+.content{
+    display: flex;
+    flex-direction: column;
+}
 .footer{
     margin:0 auto;
     text-align: center;
@@ -10,7 +14,6 @@ body{
     background-color: #B0E0E6;
 }
 main{
-    min-height: calc(100% - 90px);
     flex: 1 1 auto;
 }
 .footer span{

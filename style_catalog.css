@@ -207,10 +207,14 @@
         font-size: 1 rem;
     }
     .basket{
+        margin: 2.5px;
         top: 300px;
     }
 }
 @media (max-width: 650px){
+    .catalog-product-category{
+        max-width: 620px;
+    }
     .catalog{
         grid-template-columns: 100px 1fr;
     }
@@ -257,7 +261,9 @@
 
 }
 @media (max-width: 418px){
-   
+    .catalog-product-category{
+        width: 250px;
+    }
     .catalog{
         grid-template-columns: 80px 1fr;
     }
