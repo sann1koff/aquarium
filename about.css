@@ -1,0 +1,53 @@
+body{
+    height: 100%;
+}
+.footer{
+    margin: 20px 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #B0E0E6;
+}
+main{
+    min-height: 100%;
+    flex: 1 1 auto;
+}
+.footer span{
+    padding-left: 20px;
+}
+.footer span:nth-child(1){
+    padding-left: 0;
+}
+.about-info{
+    text-align: center;
+}
+.work-time{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.work-time li{
+    font-size: 1.5rem;
+    margin: 10px;
+    text-decoration: underline;
+}
+h2{
+    font-size: 2.5rem;
+    background-color: #B0E0E6;
+}
+.work-time span{
+    font-weight: bold;
+    color: black;
+}
+.about-info p{
+    font-size: 2rem;
+    line-height: 0.25rem;
+
+}
+h3{
+    font-size: 2.25rem;
+}
+.cooperation{
+    margin-bottom: 100px;
+}

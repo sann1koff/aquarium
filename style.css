@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+html{
+    height: 100%; 
+}
+body{
+margin: 0 auto;
+height: 100%;
+font-family: 'Amatic SC', cursive;}
+
+.content{
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1440px;
+    background-color: white;
+}
+
+.headpage{
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    background-color: #B0E0E6;
+    align-items: center;
+}
+
+.headpage-navigation-list{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0px;
+}
+a{
+    text-decoration:none;
+    color: #344b8f;
+  }
+a:hover{
+    color: #a10542;
+}
+
+.headpage-navigation-list-icon-fish{
+    width: 50px;
+    height: auto;
+}
+@media (max-width: 1383px){
+        .headpage{
+            max-width: 1000px;
+        }
+   
+        .headpage-navigation-list{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            gap: 15px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+}
+@media (max-width: 1024px){
+        .headpage-navigation-list{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 15px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .headpage{
+            max-width: 768px;
+        }
+   
+        
+}
+/*=============================================================================*/
+main{ 
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.about{
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.about h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5rem;
+    letter-spacing: 0.25rem;
+
+}
+.about p{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 3px 3px 15px;
+}
+.main-about-button{
+    margin: 0 auto;
+    background-color: #932216;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    border-radius: 15px;
+
+}
+.main-about-button a{
+    color: white;
+    text-decoration: none;
+}
+main span{
+    color: #344b8f;
+}
+.main-about{
+    text-align: center;
+    line-height: 10%;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+@media (max-width: 1383px){
+    main{
+        max-width: 1000px;
+    }
+    .about{
+        max-width: 1000px;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 740px){
+    .about h1{
+        font-size: 2rem;
+        letter-spacing: 0.25rem;
+    }
+    .about p{
+        font-size: 1rem;
+    }
+    .main-about-button{
+        font-size: 2rem;
+    }
+    .about img{
+        width: 250px;
+    }
+
+}
+/*===========================================================*/
+
+.advantages{
+    background-color: #B0E0E6;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.advantages a{
+    color: black;
+}
+.advantages div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    border: 1.5px solid #344b8f;
+    box-shadow: 5px 5px 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 5px;
+    transition: all;
+    transition-duration: 0.75s;
+}
+.advantages div:hover{
+
+    background-color:  #B0E0E6;
+}
+
+.advantages div p{
+    margin: 15px;
+}
+
+@media (max-width: 1383px){
+    .advantages{
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media (max-width: 420px){
+    .advantages div{
+        width: 125px;
+        height: 125px;
+        font-size: 15px;
+        line-height: 1px;
+    }
+    .advantages div p{
+        margin: 10px;
+    }
+
+
+}
+/*=====================================================*/
+
+
+
+.product{
+    text-align: center;
+    margin: 30px auto;
+    max-width: 1440px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.product h2{
+    padding: 0;
+    margin: 0;
+}
+.product-icons{
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.product-icons img{
+    max-width: 250px;
+}
+
+@media (max-width: 1024px){
+    .product-icons img{
+        max-width: 100px;
+    }
+    .product h2{
+        font-size: 1.5rem;
+        letter-spacing: 1;
+    }
+}

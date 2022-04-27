@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_catalog.css">
+    <title>Каталог товаров</title>
+</head>
+<body>
+    <div class="content"> 
+            <header class="header">
+                <div class="headpage">
+                    <div class="headpage-navigation">
+                        <ul class="headpage-navigation-list">
+                            <li><a href="homepage.html" >На главную</a></li>
+                            <li><a href="about.html" >О Нас</a></li>
+                            <li><a href="catalog.html">Каталок товаров</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+        <main>
+            <section class="about">
+                <div class="main-about">
+                    <h1>Каталог товаров</h1>
+                    <p><span>Погрузись с нами в мир аквариумистики</span></p>
+                </div>   
+                <img src="img/icon_catalog.png" alt="Петушки" width="250px" height="auto">
+            </section>
+            <section class="catalog">
+                <div class="navigation">
+                    <div class="navigation-panel">
+                        <ul class="navigation-list">
+                            <a href="#new"><li>Новинки</li></a>
+                            <a href="#fish"><li>Рыбки</li></a>
+                            <a href="#equipment"><li>Оборудование</li></a>
+                            <a href="#food"><li>Корма</li></a>
+                            <a href="#accessories"><li>Аксессуары</li></a>
+                            <a href="#aquarium"><li>Аквариумы</li></a>
+                        </ul>
+                    </div>
+                    <div class="basket">
+                        <div class="basket-container">
+                            <div class="basket-name">Корзина:</div>
+                            <div class="basket-body">
+                                <ul class="basket-list">
+                                </ul>
+                            </div>
+                            <div class="basket-price">
+                                Сумма: <span class="price">0</span>Руб.
+                            </div>
+                            <button class="basket-clear">Очистить корзину</button>
+                            <button class="basket-buy">Оформить заказ</button>
+                        </div>
+                    </div>
+                    
+                </div> 
+                <div class="catalog-body">
+                    <div id="new">
+                        <div class="catalog-product-category">
+                            <h2>Новинки</h2>
+                        </div>
+                        <div class="catalog-products">
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/ternetsia.png" alt="тернеция">
+                                </div>
+                                <div class="product-name">
+                                    Тернеция GLO
+                                </div>
+                                <div class="product-info">
+                                    Цветная аквариумная рыбка, обладающая привлекательной яркой окраской и не требующая прихотливого содержания.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 90 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Тернеция GLO" data-price="90">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/petyshok-vual.png" alt="вуалевый петушок">
+                                </div>
+                                <div class="product-name">
+                                    Вуалевый петушок
+                                </div>
+                                <div class="product-info">
+                                    Лабиринтовая рыбка - наличие фильтра с подачей кислорода не обязательно. Идеально подойдёт в небольшой аквариум на рабочий стол.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 350 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Вуалевый петушок" data-price="350">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/tetramin.png" alt="тернеция">
+                                </div>
+                                <div class="product-name">
+                                    Tetra Min
+                                </div>
+                                <div class="product-info">
+                                    Сбалансированый корм. Подходит для всех видов аквариумных рыбок.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 25 Руб. (10гр.)
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Tetra Min" data-price="25">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/burbus-pump001.png" alt="тернеция">
+                                </div>
+                                <div class="product-name">
+                                    Barbus Pump-001
+                                </div>
+                                <div class="product-info">
+                                    Аквариумная помпа мощностью 400л/ч. Подойдет для акварима от 40 до 100 литров.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 450 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Barbus Pump-001" data-price="450">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="fish">
+                        <div class="catalog-product-category">
+                            <h2>Рыбки</h2>
+                        </div>
+                        <div class="catalog-products">
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/ternetsia.png" alt="тернеция">
+                                </div>
+                                <div class="product-name">
+                                    Тернеция GLO
+                                </div>
+                                <div class="product-info">
+                                    Цветная аквариумная рыбка, обладающая привлекательной яркой окраской и не требующая прихотливого содержания.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 90 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Тернеция GLO" data-price="90">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/petyshok-vual.png" alt="вуалевый петушок">
+                                </div>
+                                <div class="product-name">
+                                    Вуалевый петушок
+                                </div>
+                                <div class="product-info">
+                                    Лабиринтовая рыбка - наличие фильтра с подачей кислорода не обязательно. Идеально подойдёт в небольшой аквариум на рабочий стол.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 350 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Вуалевый петушок" data-price="350">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/scalar.png" alt="скалярия">
+                                </div>
+                                <div class="product-name">
+                                    Скалярия
+                                </div>
+                                <div class="product-info">
+                                    Скалярия отличается внешне от большинства аквариумных рыбок: она имеет сильно уплощенное треугольное тело с высокими плавниками.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 100 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Скалярия" data-price="100">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/barbus.png" alt="скалярия">
+                                </div>
+                                <div class="product-name">
+                                    Барбус
+                                </div>
+                                <div class="product-info">
+                                    Барбус - стайная рыбка, для комфортной жизни требуется стайка от 3 штук. Очень активная рыбка.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 80 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Барбус" data-price="80">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/guppi.png" alt="скалярия">
+                                </div>
+                                <div class="product-name">
+                                    Гуппи
+                                </div>
+                                <div class="product-info">
+                                    Гуппи - яркая живородящая рыбка. Безобидная, подойдет для содержания с большинством видом рыб.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 60 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Гуппи" data-price="60">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/teleskop.png" alt="скалярия">
+                                </div>
+                                <div class="product-name">
+                                    Телескоп
+                                </div>
+                                <div class="product-info">
+                                    Телескоп - рыбка из семейства карповых. Отличительная черта - большие выпуклые глаза. 
+                                </div>
+                                <div class="product-price">
+                                    Цена: 350 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Телескоп" data-price="350">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/gold-fish.png" alt="скалярия">
+                                </div>
+                                <div class="product-name">
+                                    Золотая рыбка
+                                </div>
+                                <div class="product-info">
+                                    Золотая рыбка - рыбка из семейства карповых. Любит холодную воду. А еще говорят, что она может исполнять желания!
+                                </div>
+                                <div class="product-price">
+                                    Цена: 280 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Золотая рыбка" data-price="280">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="equipment">
+                        <div class="catalog-product-category">
+                            <h2>Оборудование</h2>
+                        </div>
+                        <div class="catalog-products">
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/burbus-pump001.png" alt="тернеция">
+                                </div>
+                                <div class="product-name">
+                                    Barbus Pump-001
+                                </div>
+                                <div class="product-info">
+                                    Аквариумная помпа мощностью 400л/ч. Подойдет для акварима от 40 до 100 литров.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 450 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Barbus Pump-001" data-price="450">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/tetra-filterjet.png" alt="тернеция">
+                                </div>
+                                <div class="product-name">
+                                    Tetra FilterJet 600
+                                </div>
+                                <div class="product-info">
+                                    Фильтр для аквариума объемом от 30 до 80 литров. Германское качество!
+                                </div>
+                                <div class="product-price">
+                                    Цена: 1200 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Tetra FilterJet 600" data-price="1200">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/filter-aquaelMicro.png" alt="тернеция">
+                                </div>
+                                <div class="product-name">
+                                    Aquael Micro
+                                </div>
+                                <div class="product-info">
+                                    Аквариумный фильтр для самых маленьких аквариумов объемом до 30 литров.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 850 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Aquael Micro" data-price="850">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/barbus-heater001.png" alt="тернеция">
+                                </div>
+                                <div class="product-name">
+                                    Barbus Heater 001
+                                </div>
+                                <div class="product-info">
+                                    Водонагреватель для аквариума объемом от 10 до 30 литров.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 450 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Barbus Heater 001" data-price="450">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="food">
+                        <div class="catalog-product-category">
+                            <h2>Корма</h2>
+                        </div>
+                        <div class="catalog-products">
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/tetramin.png" alt="тернеция">
+                                </div>
+                                <div class="product-name">
+                                    Tetra Min
+                                </div>
+                                <div class="product-info">
+                                    Сбалансированый корм. Подходит для всех видов аквариумных рыбок.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 25 Руб. (10гр.)
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Tetra Min" data-price="25">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/tetra-discus.png" alt="тернеция">
+                                </div>
+                                <div class="product-name">
+                                    Tetra Discus
+                                </div>
+                                <div class="product-info">
+                                    Корм для всех видов донных рыб. Улучшает окрас.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 35 Руб. (10гр.)
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Tetra Discus" data-price="35">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="accessories">
+                        <div class="catalog-product-category">
+                            <h2>Аксессуары</h2>
+                        </div>
+                        <div class="catalog-products">
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/termometr.png" alt="тернеция">
+                                </div>
+                                <div class="product-name">
+                                    Термометр Barbus 001
+                                </div>
+                                <div class="product-info">
+                                    Термометр для аквариума.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 95 Руб.
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Термометр Barbus 001" data-price="95">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="aquarium">
+                        <div class="catalog-product-category">
+                            <h2>Аквариумы</h2>
+                        </div>
+                        <div class="catalog-products">
+                            <div class="product-container">
+                                <div class="product-foto">
+                                <img src="img/products/aquarium-20l.png" alt="тернеция">
+                                </div>
+                                <div class="product-name">
+                                    Аквариум 20 литров.
+                                </div>
+                                <div class="product-info">
+                                    Аквариум 20 литров с крышкой + освещение. Производитель: Gold Fish.
+                                </div>
+                                <div class="product-price">
+                                    Цена: 1250Руб. 
+                                </div>
+                                <div class="product-button">
+                                    <a href="#add">
+                                        <div class="product-button-body" data-id="Аквариум 20 литров" data-price="1250">
+                                        Добавить в корзину
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <span>ИП Санников К.В</span>
+            <span>ИНН: 192185156</span>
+            <span>ОГРН: 1089789458900</span>
+        </footer>
+        <script src="basket.js"></script>
+    </div>
+</body>
+</html>
