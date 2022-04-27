@@ -16,6 +16,7 @@ for(let button of buttons){
 }
 
 buttonClear.onclick = function(){
-    price.innerHTML = 0;
+    sum = 0;
+    price.innerHTML = sum;
     basketList.innerHTML = '';
 }
