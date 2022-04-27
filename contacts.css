@@ -36,3 +36,16 @@ main{
     font-size: 3rem;
     font-weight: bold;
 }
+@media (max-width: 1024px){
+    .footer{
+        font-size: 1rem;
+    }
+
+   .contacts img{
+       width: 80px;
+       height: 80px;
+   }
+   .contacts div{
+       font-size: 1.75rem;
+   }
+}

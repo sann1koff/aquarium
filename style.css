@@ -13,7 +13,10 @@ font-family: 'Amatic SC', cursive;}
     max-width: 1440px;
     background-color: white;
 }
-
+img{
+    margin: 0;
+    padding: 0;
+}
 .headpage{
     height: 50px;
     margin: 0 auto;
@@ -73,7 +76,6 @@ a:hover{
         .headpage{
             max-width: 768px;
         }
-   
         
 }
 /*=============================================================================*/
@@ -87,7 +89,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
 }
 .about h1{
     text-align: center;
@@ -262,5 +264,8 @@ main span{
     .product h2{
         font-size: 1.5rem;
         letter-spacing: 1;
+    }
+    .footer{
+        font-size: 1rem;
     }
 }

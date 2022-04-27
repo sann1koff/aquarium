@@ -72,7 +72,6 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    font-size: 1.5rem;
     padding-inline-start: 0;
     text-align: center;
 }
@@ -167,4 +166,122 @@
     font-family: 'Amatic SC', cursive;
     font-size: 1rem;
 }
-    
+
+@media (max-width: 1383px){
+
+    .product-container{
+        grid-template-columns: 150px;
+        grid-template-rows: 140px 30px 100px 30px 25px;
+    }
+    .product-name, .product-price{
+        font-size: 1.5rem;
+    }
+    .product-info{
+        font-size: 0.75rem;
+    }
+    .product-foto img{
+        width: 140px;
+        height: 140px;
+    }
+    .navigation-list li{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 1024px){
+    .catalog{
+        grid-template-columns: 150px 1fr;
+    }
+    .navigation-list li{
+        font-size: 1.25rem;
+    }
+    .footer{
+        font-size: 1rem;
+    }
+    .catalog-product-category h2{
+        font-size: 1.5rem;
+    }
+    .basket-name, .basket-price{
+        font-size: 1.25rem;
+    }
+    .basket-body li{
+        font-size: 1 rem;
+    }
+    .basket{
+        top: 300px;
+    }
+}
+@media (max-width: 650px){
+    .catalog{
+        grid-template-columns: 100px 1fr;
+    }
+    .navigation-list{
+        gap: 5px;
+        border-radius: 10px;
+    }
+    .navigation-list li{
+        font-size: 1rem;
+    }
+    .product-container{
+        grid-template-columns: 120px;
+        grid-template-rows: 120px 20px 70px 20px 20px;
+    }
+    .product-name, .product-price{
+        font-size: 1rem;
+    }
+    .product-info{
+        font-size: 0.5rem;
+    }
+    .product-foto img{
+        width: 120px;
+        height: 120px;
+    }
+    .product-button-body{
+        font-size: 0.75rem;
+    }
+    .catalog-product-category h2{
+        font-size: 1rem;
+    }
+    .basket-name, .basket-price{
+        font-size: 1rem;
+    }
+    .basket-products{
+        font-size: 0.75rem;
+    }
+    .basket-clear, .basket-buy{
+        font-size: 0.6rem;
+    }
+    .basket{
+        margin-top: 20px;
+        top: 200px;
+    }
+
+}
+@media (max-width: 418px){
+   
+    .catalog{
+        grid-template-columns: 80px 1fr;
+    }
+    .product-container{
+        grid-template-columns: 80px;
+        grid-template-rows: 80px 20px 70px 20px 20px;
+    }
+    .product-name, .product-price{
+        font-size: 0.75rem;
+    }
+    .product-info{
+        font-size: 0.5rem;
+    }
+    .product-foto img{
+        width: 80px;
+        height: 80px;
+    }
+    .basket-clear, .basket-buy{
+        font-size: 0.5rem;
+    }
+    .navigation-list li{
+        font-size: 0.75rem;
+    }
+    .basket{
+        top: 170px;
+    }
+}

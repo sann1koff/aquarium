@@ -13,6 +13,9 @@ main{
     min-height: 100%;
     flex: 1 1 auto;
 }
+.main-about{
+    margin: 0;
+}
 .footer span{
     padding-left: 20px;
 }
@@ -33,6 +36,7 @@ main{
     text-decoration: underline;
 }
 h2{
+    padding: 5px;
     font-size: 2.5rem;
     background-color: #B0E0E6;
 }
@@ -40,14 +44,60 @@ h2{
     font-weight: bold;
     color: black;
 }
-.about-info p{
+.about-info h4{
+    padding: 5px;
     font-size: 2rem;
     line-height: 0.25rem;
 
 }
 h3{
+    padding: 5px;
     font-size: 2.25rem;
 }
 .cooperation{
     margin-bottom: 100px;
+}
+@media (max-width: 1383px){
+    .about-info h4{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 1024px){
+    h2, h3{
+        font-size: 1.5rem;
+    }
+    .about-info h4{
+        font-size: 1rem;
+    }
+    iframe{
+        width: 400px;
+        height: 400px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    .footer{
+        font-size: 1rem;
+    }
+    .work-time li{
+        font-size: 1.25rem;
+    }
+
+}
+@media (max-width: 650px){
+    h2, h3{
+        font-size: 1rem;
+    }
+    .about-info h4{
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+        margin: 0;
+    }
+    iframe{
+        width: 250px;
+        height: 250px;}
+    .work-time li{
+            font-size: 1rem;
+        }
 }
