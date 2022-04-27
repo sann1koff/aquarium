@@ -161,6 +161,7 @@ main span{
     padding: 50px 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 .advantages a{
@@ -195,7 +196,7 @@ main span{
 
 @media (max-width: 1383px){
     .advantages{
-        flex-direction: column;
+        padding: 10px;
         background-color: white;
         justify-content: center;
         align-items: center;
@@ -204,8 +205,8 @@ main span{
 }
 @media (max-width: 420px){
     .advantages div{
-        width: 125px;
-        height: 125px;
+        width: 110px;
+        height: 110px;
         font-size: 15px;
         line-height: 1px;
     }
@@ -246,7 +247,14 @@ main span{
 .product-icons img{
     max-width: 250px;
 }
-
+.footer{
+    margin: 20px 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #B0E0E6;
+}
 @media (max-width: 1024px){
     .product-icons img{
         max-width: 100px;
