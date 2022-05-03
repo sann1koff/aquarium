@@ -9,6 +9,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="find-price">
+    </div>
+    <div class="find-price-container">
+        <div class="find-price-body">
+            <h2>Расчитать стоимость аквариума.</h2>
+            <div><p>Длинна:</p><textarea type="number" id="lengthAqua"></textarea></div>
+            <div><p>Высота:</p><textarea type="number" id="heightAqua"></textarea></div>
+            <div><p>Ширина:</p><textarea type="number" id="widthAqua"></textarea></div>
+            <div><p>Толщина стекла:</p><textarea type="number" id="thicknessAqua"></textarea></div>
+            <button type="button" class="find-price-button">Расчитать</button>
+            <p>Ориентировочная стоимость: </p><span class="price-aquarium"></span>
+            <p>Объем аквариума: </p><span class="price-aquarium-volume"></span>
+        </div>
+    </div>
 <div class="content"> 
     <header class="header">
         <div class="headpage">
@@ -51,8 +65,8 @@
                     <p>уходе</p>
                 </div>
             </a>
-            <a href="contact.html">
-                <div>
+            <a>
+                <div class="aqurium-order">
                     <p>изготавливаем</p>
                     <p>аквариумы</p>
                     <p>на</p>
@@ -78,13 +92,13 @@
                 <img src="img/tetra/aleas.png" alt="aleas">
             </div>
         </section>
-
     </main>
     <footer class="footer">
         <span>ИП Санников К.В</span>
         <span>ИНН: 192185156</span>
         <span>ОГРН: 1089789458900</span>
     </footer>
-</div>    
+</div>
+<script src="findPrice.js"></script>   
 </body>
 </html>

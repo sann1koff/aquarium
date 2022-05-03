@@ -5,7 +5,11 @@ html{
 body{
 margin: 0 auto;
 height: 100%;
-font-family: 'Amatic SC', cursive;}
+font-family: 'Amatic SC', cursive;
+position: relative;
+}
+
+
 
 .content{
     margin: 0 auto;
@@ -195,6 +199,53 @@ main span{
 .advantages div p{
     margin: 15px;
 }
+.find-price{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 65%;
+    position: fixed;
+    z-index: 5;
+    display: none;
+}
+.find-price-container{
+    left: 35%;
+    display: none;
+    position: fixed;
+    z-index: 6;
+    font-size: 2rem;
+    background-color: white;
+    top: 15%;
+}
+.find-price-body{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+.find-price-body p,h2, span{
+    margin: 0;
+    font-weight: bold;
+}
+textarea{
+    padding: 0.25rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.find-price-button{
+    height: 30px;
+    font-size: 1rem;
+    background-color: #932216;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.see{
+    display: block;
+}
 
 @media (max-width: 1383px){
     .advantages{
@@ -203,8 +254,29 @@ main span{
         justify-content: center;
         align-items: center;
     }
+    .find-price-container{
+        left: 10%;
+    }
 
 }
+
+@media (max-width: 600px){
+    .find-price-container{
+        left: 10%;
+        font-size: 1rem;
+    }
+    .find-price-button{
+        height: 20px;
+        font-size: 0.75rem;
+        background-color: #932216;
+        color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+
+}
+
 @media (max-width: 420px){
     .advantages div{
         width: 110px;

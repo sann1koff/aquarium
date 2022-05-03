@@ -57,6 +57,10 @@ h3{
 .cooperation{
     margin-bottom: 100px;
 }
+.cooperation p{
+    font-size: 2rem;
+    margin: 0;
+}
 @media (max-width: 1383px){
     .about-info h4{
         font-size: 1.5rem;
@@ -100,4 +104,7 @@ h3{
     .work-time li{
             font-size: 1rem;
         }
+    .cooperation p{
+        font-size: 1rem;
+    }
 }
