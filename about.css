@@ -33,10 +33,13 @@ main{
 .work-time li{
     font-size: 1.5rem;
     margin: 10px;
-    text-decoration: underline;
+}
+.work-time li:nth-last-child(1){
+    margin-bottom: 20px;
 }
 h2{
     padding: 5px;
+    margin: 0;
     font-size: 2.5rem;
     background-color: #B0E0E6;
 }
@@ -53,6 +56,7 @@ h2{
 h3{
     padding: 5px;
     font-size: 2.25rem;
+    background-color: #B0E0E6;
 }
 .cooperation{
     margin-bottom: 100px;
@@ -99,8 +103,8 @@ h3{
         margin: 0;
     }
     iframe{
-        width: 250px;
-        height: 250px;}
+        width: 280px;
+        height: 230px;}
     .work-time li{
             font-size: 1rem;
         }
