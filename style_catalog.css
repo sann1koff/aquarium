@@ -168,7 +168,7 @@
     font-size: 1rem;
 }
 .page-up-button{
-    display: block;
+    display: none;
     position: fixed;
     bottom: 20%;
 
